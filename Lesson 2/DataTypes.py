@@ -34,4 +34,39 @@ print("The sum is ", c)
 
 #String operations: String is a set of character.Ex:Krishiv (K = character)
 
-#Indexing: It means acessing one character from a string.And it always counts from 0.
+#Indexing: It means acessing one character from a string.And it always counts from 0.Accessing one character of a string using it's postion.
+
+word = "Krishiv"
+print(word[-4])
+"""
+K R    I  S  H  I  V
+
+0   1  2  3  4  5  6
+
+-7 -6 -5 -4 -3 -2 -1
+"""
+#Slicing: Taking a part of a string.
+
+word1 = "Krishiv"
+print(word[2:5])#Starts from 2 and stops before 5 
+
+#Concatenation: Joining two or more strings together.
+
+first = "Hello"
+second =  "earth"
+print(first+" people of 3 "+second)
+print("welcome "+ first)
+
+#Upper and lower case:
+
+name = "Python"
+print(name.upper())
+print(name.lower())
+
+
+#Project
+
+a = str(input("Enter your first name:  "))
+b = str(input("Enter your last name: "))
+c = (a+" "+b)
+print(c.upper())
