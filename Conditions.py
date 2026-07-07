@@ -52,3 +52,10 @@ if num1 % 2 > 0:
     print("The number is odd.")
 else:
     print("The number is even.")
+
+marks1 = 80
+if marks1 >= 70:
+    print("Grade A!!")
+elif marks1 >= 71:
+    print("Grade A!")
+
