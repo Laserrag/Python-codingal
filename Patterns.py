@@ -29,3 +29,14 @@
 for row in range(5,0,-1):
    print(" " * (5 - row) + "*" * row)
 
+n = 4
+
+for i in range (1,n+1):
+   spaces=n-i
+   stars=2*i-1
+   print(""*spaces+"*" *stars)
+
+
+for i in range(1,n+1):
+   stars = n - i
+   
