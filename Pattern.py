@@ -27,5 +27,5 @@
 #Assignment 1: "Right aligned triangle"
 
 for row in range(5,0,-1):
-        print(" " * (5 - row) + "*" * row)
+   print(" " * (5 - row) + "*" * row)
 
