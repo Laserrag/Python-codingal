@@ -26,17 +26,17 @@
 
 #Assignment 1: "Right aligned triangle"
 
-for row in range(5,0,-1):
-   print(" " * (5 - row) + "*" * row)
+# for row in range(5,0,-1):
+#    print(" " * (5 - row) + "*" * row)
 
 n = 4
 
 for i in range (1,n+1):
-   spaces=n-i
    stars=2*i-1
-   print(""*spaces+"*" *stars)
+   spaces=n-i
+   print(" "*spaces+"*" *stars)
 
-
-for i in range(1,n+1):
-   stars = n - i
-   
+for i in range(n-1,0,-1):
+   stars=2*i-1
+   spaces=n-i
+   print(" "*spaces+"*" *stars)
